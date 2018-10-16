@@ -1,0 +1,90 @@
+entities:
+- CITY
+- STATE
+
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- explain
+- thanks
+- weather
+
+
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_unclear
+- utter_introduce
+- utter_examples
+- utter_thanks_response
+- utter_affirm
+- utter_apology
+- utter_is_that_all
+- utter_ask_location
+- action_weather
+
+
+slots:
+  CITY:
+    type: text
+  STATE:
+    type: text
+  TEAM:
+    type: text
+  MEASURE:
+    type: text
+
+templates:
+  utter_affirm:
+    - text: "Ok!"
+    - text: "Sure!"
+  utter_apology:
+    - text: "I'm sorry"
+    - text: "I'm sorry, let's try that again"
+  utter_ask_location:
+    - text: "In what location?"
+  utter_BAM:
+    - text: "BAM is at 100%"
+    - text: "BAM is at 85%"
+  utter_did_that_help:
+    - text: "Did that help you?"
+    - text: "Are you all set?"
+    - text: "Is that what you were looking for?"
+  utter_examples:
+    - text: "Show AE Product teams. Where are my reports?"
+    - text: "Where is the ICM? Who are the product owners?"
+  utter_goodbye:
+    - text: "Bye~"
+    - text: "Bye!"
+    - text: "Bye bye"
+    - text: "Have a nice day!"
+    - text: "See you next time"
+  utter_greet:
+    - text: "Hey! My name is Ana. How can I help"
+    - text: "Hi! I'm AVA. What can I do for you?"
+    - text: "Hi there! I'm AVA, AE Virtual Assistant. What can I do for you?"
+  utter_introduce:
+    - text: "I'm here to help you find what you need from AE. Ask me any question! Here are a few examples...
+          'Show me my Reports', ... 'Show Me AE Product Teams', ... or 'Show me the BAMS!'"
+
+  utter_is_that_all:
+    - text: "Anything else I can help you with?"
+    - text: "Would that be all?"
+  utter_show_reports:
+    - text: "https://app.powerbi.com/groups/me/apps/d5b232d9-ac24-4082-bd8e-5d823634d3ec/dashboards/24d12fff-3aeb-4150-9cb9-373264562bd2"
+  utter_thanks_response:
+    - text: "You're welcome!"
+    - text: "My pleasure!"
+    - text: "Any time!"
+    - text: "No Problem"
+    - text: "You are welcome!"
+    - text: "Glad to help!"
+    - text: "No Problem dude"
+  utter_unclear:
+    - text: "I am not sure what you are aiming for."
+    - text: "I do not understand your question. Please visit http://jump/insights for more reports. Or submit a request through our Jira service desk: http://jump/hsiii"

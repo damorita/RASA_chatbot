@@ -1,0 +1,5 @@
+{
+    "pipeline":"spacy_sklearn",
+    "path":"./backend/models/nlu",
+    "data":"./backend/chatbot_nlu_def.md"
+  }

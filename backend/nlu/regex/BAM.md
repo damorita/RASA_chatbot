@@ -1,0 +1,3 @@
+
+## regex:BAM
+- BAM[^\\s]*

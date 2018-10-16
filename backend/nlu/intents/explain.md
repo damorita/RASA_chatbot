@@ -1,0 +1,13 @@
+## intent:explain
+- who are you?
+- what do you do?
+- what is you?
+- help me
+- help
+- what can i do?
+- what should i say?
+- please help
+- please explain
+- explain
+- what can you do?
+- what do you have?

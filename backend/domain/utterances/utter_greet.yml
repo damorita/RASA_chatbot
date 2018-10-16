@@ -1,0 +1,4 @@
+utter_greet:
+  - text: "Hey! My name is Ana. How can I help"
+  - text: "Hi! I'm AVA. What can I do for you?"
+  - text: "Hi there! I'm AVA, AE Virtual Assistant. What can I do for you?"

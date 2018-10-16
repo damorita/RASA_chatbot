@@ -1,0 +1,10 @@
+## intent:mood_great
+- good
+- GOOD
+- Good
+- God
+- great
+- Great
+- terrific
+- wonderful
+- excellent

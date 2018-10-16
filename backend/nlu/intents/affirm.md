@@ -1,0 +1,19 @@
+## intent:affirm
+- yes
+- yes please
+- yeah
+- y
+- yup
+- agree
+- indeed
+- proceed
+- good
+- GOOD
+- Good
+- God
+- great
+- Great
+- terrific
+- wonderful
+- excellent
+- affirmative

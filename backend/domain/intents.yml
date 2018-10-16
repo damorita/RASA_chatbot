@@ -1,0 +1,7 @@
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- thanks
+- weather

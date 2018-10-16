@@ -1,0 +1,12 @@
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_unclear
+- utter_thanks_response
+- utter_affirm
+- utter_apology
+- utter_is_that_all
+- utter_ask_location
+- action_weather

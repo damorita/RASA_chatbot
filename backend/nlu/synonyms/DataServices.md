@@ -1,0 +1,12 @@
+## synonym:Data Services  
+- SAS
+- sas
+- informatica
+- Informatica
+- DS
+- data services
+- dataservices
+- Data service
+- Data Service
+- SAS and Informatica
+- SAS & Informatica

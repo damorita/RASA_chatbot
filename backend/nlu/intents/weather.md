@@ -1,0 +1,4 @@
+- Weather
+- whats the weather like?
+- what is the weather right now?
+- show me the weather
