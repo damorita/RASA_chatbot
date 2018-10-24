@@ -1,10 +1,19 @@
 # RASA_chatbot
 ---
 The following rasa chatbot are based on the templates provided by the following blogs by Justina and Jason:
+
 https://jpboost.com/2018/02/06/creating-a-chatbot-with-rasa-nlu-and-rasa-core/
+
 http://smithstrategy.com/index.php/2018/02/28/chatbot-tutorial-using-rasa-and-docker/
+
 https://github.com/tmbo/rasa-demo-pydata18
 
+---
+## Pre Req
+Build Tools for Visual Studio 2017:    https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017
+pip install rasa_core
+pip install rasa_nlu
+pip install tensorflow
 
 ---
 ## Run Your Chatbot App
