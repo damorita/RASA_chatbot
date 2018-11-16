@@ -7,6 +7,7 @@ def train_nlu(data, configs, model_dir):  # Trains the NLU model using the inten
 	training_data = load_data(data)
 	trainer = Trainer(config.load(configs))
 	trainer.train(training_data)
+	trainer.persist(model_dir, fixed_model_name = 'current')
 	
 def run_nlu(message): # Send the nlu model a message to parse.
 	interpreter = Interpreter.load('./backend/models/nlu/default/current') 

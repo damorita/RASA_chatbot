@@ -16,7 +16,7 @@ from rasa_core.train import online
 logger = logging.getLogger(__name__)
 
 
-def run_online(interpreter,domain_file="./backend/domain.yml",training_data_file='./backend/stories.md'):					  
+def run_online(interpreter,domain_file="./domain.yml",training_data_file='./backend/stories.md'):					  
     agent = Agent(domain_file,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy()],
                   interpreter=interpreter) 
@@ -32,5 +32,5 @@ def run_online(interpreter,domain_file="./backend/domain.yml",training_data_file
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-    nlu_interpreter = RasaNLUInterpreter('./backend/models/nlu/default/current')
+    nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/current')
     run_online(nlu_interpreter)

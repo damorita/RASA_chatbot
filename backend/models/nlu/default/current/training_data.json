@@ -1,0 +1,491 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "y"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "text": "agree"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "proceed"
+      },
+      {
+        "intent": "affirm",
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "text": "GOOD"
+      },
+      {
+        "intent": "affirm",
+        "text": "Good"
+      },
+      {
+        "intent": "affirm",
+        "text": "God"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "Great"
+      },
+      {
+        "intent": "affirm",
+        "text": "terrific"
+      },
+      {
+        "intent": "affirm",
+        "text": "wonderful"
+      },
+      {
+        "intent": "affirm",
+        "text": "excellent"
+      },
+      {
+        "intent": "affirm",
+        "text": "affirmative"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "NO"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "n"
+      },
+      {
+        "intent": "explain",
+        "text": "who are you?"
+      },
+      {
+        "intent": "explain",
+        "text": "what do you do?"
+      },
+      {
+        "intent": "explain",
+        "text": "what is you?"
+      },
+      {
+        "intent": "explain",
+        "text": "help me"
+      },
+      {
+        "intent": "explain",
+        "text": "help"
+      },
+      {
+        "intent": "explain",
+        "text": "what can i do?"
+      },
+      {
+        "intent": "explain",
+        "text": "what should i say?"
+      },
+      {
+        "intent": "explain",
+        "text": "please help"
+      },
+      {
+        "intent": "explain",
+        "text": "please explain"
+      },
+      {
+        "intent": "explain",
+        "text": "explain"
+      },
+      {
+        "intent": "explain",
+        "text": "what can you do?"
+      },
+      {
+        "intent": "explain",
+        "text": "what do you have?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "GOODBYE"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good by"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "BYE"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "cya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "c ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "take care"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "Daniel",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "hey, I am Daniel"
+      },
+      {
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "Dan",
+            "entity": "PERSON"
+          }
+        ],
+        "text": "good morning, I am Dan"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "HELLO"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "ello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "ey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi,"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "HI"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "good noon"
+      },
+      {
+        "intent": "greet",
+        "text": "good day"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "are you there?"
+      },
+      {
+        "intent": "mood_great",
+        "text": "good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "GOOD"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "God"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "terrific"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "excellent"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks so much!"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you!"
+      },
+      {
+        "intent": "thanks",
+        "text": "Yes, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Yes thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Weather"
+      },
+      {
+        "intent": "thanks",
+        "text": "whats the weather like?"
+      },
+      {
+        "intent": "thanks",
+        "text": "what is the weather right now?"
+      },
+      {
+        "intent": "thanks",
+        "text": "show me the weather"
+      }
+    ],
+    "regex_features": [
+      {
+        "name": "BAM",
+        "pattern": "BAM[^\\\\s]*"
+      },
+      {
+        "name": "sql",
+        "pattern": "market[^\\\\s]*"
+      },
+      {
+        "name": "sql",
+        "pattern": "server[^\\\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "Alfresco",
+        "synonyms": [
+          "alfresco",
+          "ecm",
+          "ECM"
+        ]
+      },
+      {
+        "value": "Data Services",
+        "synonyms": [
+          "SAS",
+          "sas",
+          "informatica",
+          "Informatica",
+          "DS",
+          "data services",
+          "dataservices",
+          "Data service",
+          "Data Service",
+          "SAS and Informatica",
+          "SAS & Informatica"
+        ]
+      },
+      {
+        "value": "Docker",
+        "synonyms": [
+          "Container",
+          "DOCKER",
+          "docker",
+          "Caas",
+          "CAAS"
+        ]
+      },
+      {
+        "value": "Liberty Cloud Services",
+        "synonyms": [
+          "Liberty Cloud",
+          "lcs",
+          "liberty cloud services",
+          "LCS"
+        ]
+      },
+      {
+        "value": "market",
+        "synonyms": [
+          "USCM",
+          "PI",
+          "CI",
+          "Commercial Insurance",
+          "Personal Insurance",
+          "Personal Market",
+          "United States Consumer Market",
+          "HS",
+          "Hosting Services",
+          "ETS",
+          "Corporate",
+          "Enterprise Technology Services",
+          "Legal",
+          "Human Resources",
+          "business owner",
+          "business",
+          "owner"
+        ]
+      },
+      {
+        "value": "Middleware",
+        "synonyms": [
+          "middleware",
+          "mw",
+          "middlware",
+          "middle ware"
+        ]
+      },
+      {
+        "value": "OS Linux",
+        "synonyms": [
+          "os",
+          "OS",
+          "linux",
+          "Linux",
+          "Unix",
+          "unix",
+          "os linux"
+        ]
+      },
+      {
+        "value": "SharePoint",
+        "synonyms": [
+          "sharepoint",
+          "sp",
+          "Sharepoint",
+          "Share Point"
+        ]
+      },
+      {
+        "value": "VMware",
+        "synonyms": [
+          "vmware",
+          "VMWARE",
+          "vm ware"
+        ]
+      },
+      {
+        "value": "Windows Workload",
+        "synonyms": [
+          "windows",
+          "Windows",
+          "WW",
+          "ww",
+          "windows workload"
+        ]
+      }
+    ]
+  }
+}

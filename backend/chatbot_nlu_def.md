@@ -20,7 +20,6 @@
 - excellent
 - affirmative
 
-
 ## intent:deny
 - no
 - NO
@@ -77,6 +76,8 @@
 - are you there?
 
 
+
+
 ## intent:mood_great
 - good
 - GOOD
@@ -97,16 +98,100 @@
 - Yes, thanks
 - Yes thank you
 
-- What's the weather in [London](GPE) today?
-- Show me what's the weather in [Paris](GPE)
-- what's the weather in [Seattle](GPE)?
-- what's the weather in [Boston](GPE)?
-- [Seattle](GPE)
-- [Seattle](GPE), [Washington](GPE)
 - Weather
 - whats the weather like?
 - what is the weather right now?
 - show me the weather
 
+## synonym:Alfresco  
+- alfresco
+- ecm
+- ECM
 
 
+## synonym:Data Services  
+- SAS
+- sas
+- informatica
+- Informatica
+- DS
+- data services
+- dataservices
+- Data service
+- Data Service
+- SAS and Informatica
+- SAS & Informatica
+
+## synonym:Docker  
+- Container
+- DOCKER
+- docker
+- Caas
+- CAAS
+
+## synonym:Liberty Cloud Services  
+- Liberty Cloud
+- lcs
+- liberty cloud services 
+- LCS
+
+## synonym:market  
+- USCM
+- PI
+- CI
+- Commercial Insurance
+- Personal Insurance
+- Personal Market
+- United States Consumer Market
+- HS
+- Hosting Services
+- ETS
+- Corporate
+- Enterprise Technology Services
+- Legal
+- Human Resources
+- business owner
+- business
+- owner
+
+## synonym:Middleware   
+- middleware
+- mw
+- middlware
+- middle ware
+
+## synonym:OS Linux  
+- os
+- OS
+- linux
+- Linux
+- Unix
+- unix
+- os linux
+
+## synonym:SharePoint  
+- sharepoint
+- sp
+- Sharepoint
+- Share Point
+
+## synonym:VMware  
+- vmware
+- VMWARE
+- vm ware
+
+## synonym:Windows Workload  
+- windows
+- Windows
+- WW
+- ww
+- windows workload
+
+
+## regex:BAM
+- BAM[^\\s]*
+
+
+## regex:sql
+- server[^\\s]*
+- market[^\\s]*

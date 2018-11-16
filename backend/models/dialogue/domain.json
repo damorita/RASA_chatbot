@@ -1,0 +1,26 @@
+{
+  "states": [
+    "intent_affirm",
+    "intent_deny",
+    "intent_goodbye",
+    "intent_greet",
+    "intent_thanks",
+    "intent_weather",
+    "entity_GPE",
+    "slot_GPE_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_action_default_fallback",
+    "prev_utter_greet",
+    "prev_utter_did_that_help",
+    "prev_utter_happy",
+    "prev_utter_goodbye",
+    "prev_utter_unclear",
+    "prev_utter_thanks_response",
+    "prev_utter_affirm",
+    "prev_utter_apology",
+    "prev_utter_is_that_all",
+    "prev_utter_ask_location",
+    "prev_action_weather"
+  ]
+}

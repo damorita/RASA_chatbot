@@ -25,9 +25,11 @@ To run your (flask) chatbot app you can either...
 
 or take the following steps:
 
-1. Start the Action Server: *app_scripts/1_Start_Action_Server.ps1*
-2. Start the Rasa Chatbot Server: *app_scripts/2_Start_Rasa_Engine.ps1*
-3. Start the FrontEnd: *app_scripts/3_Start_Frontend.ps1*
+1. Start the Action Server: *backend/app_scripts/1_Start_Action_Server.ps1*
+2. Start the Rasa Chatbot Server: *backend/app_scripts/2_Start_Rasa_Engine.ps1*
+3. Start the FrontEnd: *frontend/flask/app.py*
+4. Open a browser and enter: http://localhost:8080/
+5. Start chatting!
 
 ---
 ## Training Your Chatbot
@@ -45,7 +47,7 @@ To train the nlu of the chatbot, you will need to update files pertaining to int
 ### Training Dialogue:
 To train the dialogue of the chatbot, you will need to update files pertaining to stories (includes entities & slots),  and domain. All of this get aggregated into the stories.md and domain.yml file.
 1. Under the backend/domain/ folder, you will find folders for utterances and files for actions, slots, entities and intents. Add new yml files for new content. Otherwise you can edit existing files.
-2. Run the *training_scripts/build/build_domain_file.py* to update the domain.yml file. Run the *training_scripts/build//build_stories_file.py* to update the stories.md file.
+2. Run the *training_scripts/build/build_domain_file.py* to update the domain.yml file. 
 3. If you would like to train your bot and add new stories by conversation, run the *training_scripts/train_online.py*. Otherwise Run the the *training_scripts/update/Update_Dialogue_Model.py* to update the model with the new contents
 
 ### Talk to Your Trained Chatbot:
@@ -86,8 +88,6 @@ Once your chatbot is adequately trained, you can run the scripts under the *trai
         + models/dialogue/ model contains trained dialogue files the chatbot will use to *respond* to the user
     - /**nlu:**
         + Contains the NLU TRAINING data to teach the chatbot natural language such as intents, synonyms, regex
-    - /**stories:**
-        + Contains stories files for custom and generated stories. These files are aggregated into backend/stories.md
     - /**training_scripts:**
         + Contains scripts necessary to train your chatbot with new information
 
