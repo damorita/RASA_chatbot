@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+out.log
+/node_modules/
+/frontend/Express/node_modules/

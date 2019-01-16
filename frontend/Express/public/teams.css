@@ -1,0 +1,11 @@
+body {
+    color : navy;
+}
+
+body #header{
+    color : black;
+}
+
+#header {
+    background: url(https://images.unsplash.com/photo-1509803874385-db7c23652552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80) center / cover no-repeat; 
+}
